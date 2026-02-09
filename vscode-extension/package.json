@@ -1,0 +1,67 @@
+{
+  "name": "polygo-vscode",
+  "displayName": "PolyGo",
+  "description": "PolyGo keyword completions for .p.go files",
+  "version": "0.0.3",
+  "publisher": "mizanur",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:go"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [],
+    "configuration": {
+      "title": "PolyGo",
+      "properties": {
+        "polygo.locale": {
+          "type": "string",
+          "default": "",
+          "description": "Override locale for PolyGo completions (e.g. bn, es). Empty means use .pgo_lang or default."
+        }
+      }
+    },
+    "languages": [
+      {
+        "id": "polygo",
+        "aliases": [
+          "PolyGo",
+          "polygo"
+        ],
+        "extensions": [
+          ".p.go"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "polygo",
+        "scopeName": "source.polygo",
+        "path": "./syntax/polygo.tmLanguage.json"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newmizanur/poly-go"
+  },
+  "license": "MIT",
+  "icon": "icon.png"
+}

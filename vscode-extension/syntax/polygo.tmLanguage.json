@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "PolyGo",
+  "scopeName": "source.polygo",
+  "patterns": [
+    {
+      "name": "comment.line.double-slash.polygo",
+      "match": "//.*$"
+    },
+    {
+      "name": "comment.block.polygo",
+      "begin": "/\\*",
+      "end": "\\*/"
+    },
+    {
+      "name": "string.quoted.double.polygo",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        { "match": "\\\\.", "name": "constant.character.escape.polygo" }
+      ]
+    },
+    {
+      "name": "string.quoted.raw.polygo",
+      "begin": "`",
+      "end": "`"
+    },
+    {
+      "name": "constant.numeric.polygo",
+      "match": "\\b(0x[0-9A-Fa-f]+|\\d+)(?:\\.\\d+)?\\b"
+    },
+    {
+      "name": "keyword.control.polygo",
+      "match": "\\b(প্যাকেজ|আমদানি|ফাংশন|ফেরত|চলক|ধ্রুবক|ধরণ|কাঠামো|ইন্টারফেস|যদি|না_হলে|জন্য|পরিসর|বাছাই|বিকল্প|ডিফল্ট|ধারাবাহিক|থামো|পরেরটায়_যাও|চালাও|স্থগিত|চ্যানেল|নির্বাচন|যাও|অভিধান|paquete|importar|funcion|retornar|var|constante|tipo|estructura|interfaz|si|sino|para|rango|cambiar|caso|defecto|continuar_caso|romper|siguiente|ir|aplazar|canal|seleccionar|ir_a|mapa|パッケージ|インポート|関数|戻す|変数|定数|型|構造体|インタフェース|もし|違えば|繰り返す|反復|条件分岐|場合|その他|そのまま|抜ける|次へ|並行|遅延|チャネル|選択|移動|辞書|包|导入|函数|返回|变量|常量|类型|结构体|接口|如果|否则|循环|遍历|分支|情况|默认|贯穿|跳出|继续|并发|延迟|通道|选择|跳转|映射)\\b"
+    },
+    {
+      "name": "keyword.other.polygo",
+      "match": "\\b(বানাও|নতুন|দৈর্ঘ্য|ধারণক্ষমতা|সংযুক্ত|অনুলিপি|মুছো|জটিল|বাস্তব|কাল্পনিক|ঘনিষ্ঠ|আতঙ্ক|ফিরে_আসো|সত্য|মিথ্যা|শূন্য|পূর্ণসংখ্যা|পূর্ণসংখ্যা৮|পূর্ণসংখ্যা১৬|পূর্ণসংখ্যা৩২|পূর্ণসংখ্যা৬৪|চিহ্নহীনপূর্ণসংখ্যা|চিহ্নহীনপূর্ণসংখ্যা৮|চিহ্নহীনপূর্ণসংখ্যা১৬|চিহ্নহীনপূর্ণসংখ্যা৩২|চিহ্নহীনপূর্ণসংখ্যা৬৪|ইউইন্টপয়েন্টার|বাইট|রুন|ভগ্নাংশ৩২|ভগ্নাংশ৬৪|জটিল৬৪|জটিল১২৮|বুলিয়ান|লেখা|ত্রুটি|যেকোন|crear|nuevo|longitud|capacidad|agregar|copiar|borrar|complejo|real|imaginario|cerrar|panico|recuperar|verdadero|falso|nulo|entero|entero8|entero16|entero32|entero64|u_entero|u_entero8|u_entero16|u_entero32|u_entero64|puntero_u|byte|runa|flotante32|flotante64|complejo64|complejo128|booleano|cadena|error|cualquiera|作る|新規|長さ|容量|追加|複写|削除|複素|実部|虚部|閉じる|パニック|回復|真|偽|無|整数|小数64|文字列|任意|誤り|创建|新建|长度|容量|追加|复制|删除|复数|实部|虚部|关闭|恐慌|恢复|真|假|空|整数|小数64|字符串|任意|错误)\\b"
+    }
+  ]
+}

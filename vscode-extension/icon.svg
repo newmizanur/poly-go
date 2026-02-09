@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2A9D8F"/>
+      <stop offset="100%" stop-color="#264653"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="256" height="256" rx="32" fill="url(#bg)"/>
+  <text x="64" y="160" font-family="Arial, sans-serif" font-size="120" font-weight="700" fill="#F4F1DE">P</text>
+  <text x="120" y="190" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#E9C46A">go</text>
+  <text x="170" y="70" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#E9C46A">E</text>
+  <text x="195" y="70" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#F4F1DE">ポ</text>
+  <text x="220" y="70" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#E9C46A">আ</text>
+</svg>

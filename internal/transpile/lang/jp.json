@@ -1,0 +1,64 @@
+{
+  "keywords": {
+    "パッケージ": "package",
+    "インポート": "import",
+
+    "関数": "func",
+    "戻す": "return",
+
+    "変数": "var",
+    "定数": "const",
+
+    "型": "type",
+    "構造体": "struct",
+    "インタフェース": "interface",
+
+    "もし": "if",
+    "違えば": "else",
+
+    "繰り返す": "for",
+    "反復": "range",
+
+    "条件分岐": "switch",
+    "場合": "case",
+    "その他": "default",
+    "そのまま": "fallthrough",
+
+    "抜ける": "break",
+    "次へ": "continue",
+
+    "並行": "go",
+    "遅延": "defer",
+
+    "チャネル": "chan",
+    "選択": "select",
+
+    "移動": "goto",
+    "辞書": "map"
+  },
+  "predeclared": {
+    "作る": "make",
+    "新規": "new",
+    "長さ": "len",
+    "容量": "cap",
+    "追加": "append",
+    "複写": "copy",
+    "削除": "delete",
+    "複素": "complex",
+    "実部": "real",
+    "虚部": "imag",
+    "閉じる": "close",
+    "パニック": "panic",
+    "回復": "recover",
+
+    "真": "true",
+    "偽": "false",
+    "無": "nil",
+
+    "整数": "int",
+    "小数64": "float64",
+    "文字列": "string",
+    "任意": "any",
+    "誤り": "error"
+  }
+}

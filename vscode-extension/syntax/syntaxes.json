@@ -1,0 +1,8 @@
+{
+  "name": "polygo",
+  "displayName": "PolyGo",
+  "extensions": [".p.go"],
+  "configuration": "./language-configuration.json",
+  "scopeName": "source.polygo",
+  "path": "./syntax/polygo.tmLanguage.json"
+}

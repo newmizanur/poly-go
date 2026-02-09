@@ -1,0 +1,64 @@
+{
+  "keywords": {
+    "包": "package",
+    "导入": "import",
+
+    "函数": "func",
+    "返回": "return",
+
+    "变量": "var",
+    "常量": "const",
+
+    "类型": "type",
+    "结构体": "struct",
+    "接口": "interface",
+
+    "如果": "if",
+    "否则": "else",
+
+    "循环": "for",
+    "遍历": "range",
+
+    "分支": "switch",
+    "情况": "case",
+    "默认": "default",
+    "贯穿": "fallthrough",
+
+    "跳出": "break",
+    "继续": "continue",
+
+    "并发": "go",
+    "延迟": "defer",
+
+    "通道": "chan",
+    "选择": "select",
+
+    "跳转": "goto",
+    "映射": "map"
+  },
+  "predeclared": {
+    "创建": "make",
+    "新建": "new",
+    "长度": "len",
+    "容量": "cap",
+    "追加": "append",
+    "复制": "copy",
+    "删除": "delete",
+    "复数": "complex",
+    "实部": "real",
+    "虚部": "imag",
+    "关闭": "close",
+    "恐慌": "panic",
+    "恢复": "recover",
+
+    "真": "true",
+    "假": "false",
+    "空": "nil",
+
+    "整数": "int",
+    "小数64": "float64",
+    "字符串": "string",
+    "任意": "any",
+    "错误": "error"
+  }
+}

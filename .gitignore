@@ -1,0 +1,20 @@
+# Local notes
+/todo.md
+
+# Build outputs
+/bin/
+
+# Generated workspace
+/.pgo_gen/
+
+# Go build cache
+*.test
+
+# OS/editor
+.DS_Store
+
+# VS Code extension deps
+/vscode-extension/node_modules/
+/vscode-extension/dist/
+*.vsix
+/vscode-extension/.vscode-test/
